@@ -59,14 +59,14 @@ h1,h2,h3{
     background-color: var(--primario);
     color: var(--negro);
 }
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
     .nav-princ{
         flex-direction: column;
     }
     .boton{
         width: auto;
     }
-}
+}*/
 
 .bg-portada{
     background-image: url(../img/hero.jpg);
@@ -108,19 +108,19 @@ h1,h2,h3{
     text-align: center;
     border-radius: 0.5rem;
 }
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
     .boton{
         width: auto;
     }
-}*/
+}
 .articulos{
     display: grid;
-    /*grid-template-columns: 1fr 1fr 1fr;*/ 
+    grid-template-columns: 1fr 1fr 1fr;
     /*grid-template-rows: 100px 100px 100px;*/
     column-gap: 1.5rem;
     justify-content: center;
 }
-
+/*
 @media (min-width: 1081px) {
     .articulos{
     display: grid;  
@@ -130,7 +130,7 @@ h1,h2,h3{
         width: auto;
     }
 
-}
+}*/
 
 .articulos .icono{
     display: flex;
