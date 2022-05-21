@@ -108,11 +108,11 @@ h1,h2,h3{
     text-align: center;
     border-radius: 0.5rem;
 }
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
     .boton{
         width: auto;
     }
-}
+}*/
 .articulos{
     display: grid;
     /*grid-template-columns: 1fr 1fr 1fr;*/ 
@@ -121,7 +121,7 @@ h1,h2,h3{
     justify-content: center;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1081px) {
     .articulos{
     display: grid;  
     grid-template-columns: 1fr 1fr 1fr;  
