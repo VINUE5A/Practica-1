@@ -11,6 +11,7 @@ html{
     box-sizing: border-box;
     /* background-color: var(--gris); */
 }
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -28,6 +29,7 @@ h2{
 }
 h3{
     font-size: 1.6rem;
+
 }
 
 h1,h2,h3{
@@ -112,10 +114,11 @@ h1,h2,h3{
     }
 }
 .articulos{
-    display: flex;
-    flex-direction: row;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-rows: 100px 100px 100px;*/
     column-gap: 1.5rem;
+    justify-content: center;
 }
 
 .articulos .icono{
@@ -134,4 +137,9 @@ h1,h2,h3{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.expa{
+    display: grid;
+    grid-template-rows: 40px;
 }
