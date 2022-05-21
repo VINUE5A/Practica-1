@@ -115,10 +115,18 @@ h1,h2,h3{
 }
 .articulos{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-columns: 1fr 1fr 1fr;*/ 
     /*grid-template-rows: 100px 100px 100px;*/
     column-gap: 1.5rem;
     justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .articulos{
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;  
+    }
+    
 }
 
 .articulos .icono{
