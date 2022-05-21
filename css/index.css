@@ -114,13 +114,13 @@ h1,h2,h3{
     }
 }
 /*inicio condicion rotacion*/
-.articulos{
+/*.articulos{
     display: grid;
     grid-template-columns: 1fr ;
-    /*grid-template-rows: 100px 100px 100px;*/
+    /*grid-template-rows: 100px 100px 100px;
     column-gap: 1.5rem;
     justify-content: center;
-}
+}*/
 
 @media (max-width: 479px) {
     .articulos{
@@ -138,6 +138,8 @@ h1,h2,h3{
     .articulos{
     display: grid;  
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.5rem;
+    justify-content: center;
     }
     .boton{
         width: auto;
