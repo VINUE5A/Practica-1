@@ -45,7 +45,7 @@ h1,h2,h3{
 .nav-princ {
     display: flex;
     background-color: var(--secundario);
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 .nav-princ a {
@@ -59,14 +59,14 @@ h1,h2,h3{
     background-color: var(--primario);
     color: var(--negro);
 }
-/*@media (max-width: 480px) {
+@media (min-width: 1081px) {
     .nav-princ{
-        flex-direction: column;
+        flex-direction: row;
     }
     .boton{
         width: auto;
     }
-}*/
+}
 
 .bg-portada{
     background-image: url(../img/hero.jpg);
@@ -120,17 +120,17 @@ h1,h2,h3{
     column-gap: 1.5rem;
     justify-content: center;
 }
-/*
-@media (min-width: 1081px) {
+
+@media (max-width: 1080px) {
     .articulos{
     display: grid;  
-    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-columns: 1fr;
     }
     .boton{
         width: auto;
     }
 
-}*/
+}
 
 .articulos .icono{
     display: flex;
