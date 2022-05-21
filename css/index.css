@@ -121,12 +121,15 @@ h1,h2,h3{
     justify-content: center;
 }
 
-@media (min-width: 1081px) {
+@media (min-width: 1080px) {
     .articulos{
     display: grid;  
     grid-template-columns: 1fr 1fr 1fr;  
     }
-    
+    .boton{
+        width: auto;
+    }
+
 }
 
 .articulos .icono{
