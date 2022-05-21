@@ -121,7 +121,7 @@ h1,h2,h3{
     justify-content: center;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1079px) {
     .articulos{
     display: grid;  
     grid-template-columns: 1fr;
